@@ -1,0 +1,146 @@
+
+D:\мои моды\HexCasting-main>if "Windows_NT" == "Windows_NT" setlocal
+
+D:\мои моды\HexCasting-main>set DIRNAME=D:\мои моды\HexCasting-main\ 
+
+D:\мои моды\HexCasting-main>if "D:\мои моды\HexCasting-main\" == "" set DIRNAME=. 
+
+D:\мои моды\HexCasting-main>set APP_BASE_NAME=gradlew 
+
+D:\мои моды\HexCasting-main>set APP_HOME=D:\мои моды\HexCasting-main\ 
+
+D:\мои моды\HexCasting-main>for %i in ("D:\мои моды\HexCasting-main\") do set APP_HOME=%~fi 
+
+D:\мои моды\HexCasting-main>set APP_HOME=D:\мои моды\HexCasting-main\ 
+
+D:\мои моды\HexCasting-main>set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m" 
+
+D:\мои моды\HexCasting-main>if defined JAVA_HOME goto findJavaFromJavaHome 
+
+D:\мои моды\HexCasting-main>set JAVA_HOME=D:\мои моды\HexCasting-main\.gradle\local-jdks\jdk21\jdk-21.0.11+10 
+
+D:\мои моды\HexCasting-main>set JAVA_EXE=D:\мои моды\HexCasting-main\.gradle\local-jdks\jdk21\jdk-21.0.11+10/bin/java.exe 
+
+D:\мои моды\HexCasting-main>if exist "D:\мои моды\HexCasting-main\.gradle\local-jdks\jdk21\jdk-21.0.11+10/bin/java.exe" goto execute 
+
+D:\мои моды\HexCasting-main>set CLASSPATH=D:\мои моды\HexCasting-main\\gradle\wrapper\gradle-wrapper.jar 
+
+D:\мои моды\HexCasting-main>"D:\мои моды\HexCasting-main\.gradle\local-jdks\jdk21\jdk-21.0.11+10/bin/java.exe" "-Xmx64m" "-Xms64m"   "-Dorg.gradle.appname=gradlew" -classpath "D:\мои моды\HexCasting-main\\gradle\wrapper\gradle-wrapper.jar" org.gradle.wrapper.GradleWrapperMain :Forge:runServer --no-daemon --console=plain 
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.10.2/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :Common:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :Common:createMinecraftArtifacts UP-TO-DATE
+> Task :Common:compileKotlin UP-TO-DATE
+> Task :Common:compileJava UP-TO-DATE
+> Task :Common:processResources
+> Task :Common:classes
+> Task :Forge:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :Forge:createMinecraftArtifacts UP-TO-DATE
+> Task :Forge:compileKotlin UP-TO-DATE
+> Task :Forge:compileJava UP-TO-DATE
+> Task :Forge:processResources
+> Task :Forge:classes
+
+> Task :Forge:downloadAssets
+Loaded 145 artifacts from D:\... ....\HexCasting-main\Forge\build\tmp\downloadAssets\nfrt_artifact_manifest.properties
+Downloading asset index 17
+Using Minecraft asset root: C:\Users\a1exr\.gradle\caches\neoformruntime\assets
+  DL    https://piston-meta.mojang.com/v1/packages/8681a7ae5e3ff6bd4cd7f6413dc4573515a344f0/17.json
+
+> Task :Forge:writeServerLegacyClasspath
+> Task :Forge:prepareServerRun
+
+> Task :Forge:runServer
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[14:41:46] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserverdev, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.228, --fml.neoFormVersion, 20240808.144430]
+[14:41:46] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.11+10-LTS
+[14:41:46] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[14:41:47] [main/INFO] [ne.ne.fm.lo.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserverdev
+[14:41:47] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/a1exr/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%2394!/ Service=ModLauncher Env=SERVER
+[14:41:48] [main/INFO] [ne.ne.fm.lo.mo.lo.JarInJarDependencyLocator/]: Found 11 dependencies adding them to mods collection
+[14:41:48] [main/INFO] [ne.ne.fm.lo.mo.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Architectury 13.0.8 (architectury)
+		Caelus API 7.0.1+1.21.1 (caelus)
+		Curios API 9.2.2+1.21.1 (curios)
+		Hex Casting 0.11.1-15+neoforge.1.21.1 (hexcasting)
+		Kotlin For Forge 5.9.0 (kotlinforforge)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.228 (neoforge)
+		Patchouli 1.21.1-93-NEOFORGE (patchouli)
+		PAUCAL 0.7.0+neoforge-1.21.1 (paucal)
+		Pehkui 3.8.3+1.21-neoforge (pehkui)
+[14:41:50] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[14:41:50] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[14:41:50] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserverdev' with arguments [--gameDir, .]
+[14:41:50] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:41:50] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:41:50] [main/WARN] [mixin/]: Reference map 'patchouli.refmap.json' for patchouli_xplat.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:41:51] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[14:42:03] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:42:03] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:42:03] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14:42:03] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14:42:03] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:42:04] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.228, for MC 1.21.1
+[14:42:04] [modloading-worker-0/INFO] [th.ko.ne.te.KotlinForForge/]: Kotlin For Forge Enabled!
+[14:42:05] [PAUCAL Contributors Loading Thread/INFO] [paucal/]: Loaded 83 contributors and 7 headpat sounds from Github
+[14:42:06] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:42:06] [main/WARN] [ne.ne.ne.co.CommonHooks/WP]: The following mods have version differences that were not resolved:
+hexcasting (version 0.11.1-7+neoforge.1.21.1 -> 0.11.1-15+neoforge.1.21.1)
+Things may not work well.
+[14:42:06] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/D:/╨╝╨╛╨╕%20╨╝╨╛╨┤╤Л/HexCasting-main/Forge/build/moddev/artifacts/neoforge-21.1.228.jar%23125!/assets/.mcassetsroot' uses unexpected schema
+[14:42:06] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/D:/╨╝╨╛╨╕%20╨╝╨╛╨┤╤Л/HexCasting-main/Forge/build/moddev/artifacts/neoforge-21.1.228.jar%23125!/data/.mcassetsroot' uses unexpected schema
+[14:42:08] [main/INFO] [minecraft/RecipeManager]: Loaded 1394 recipes
+[14:42:09] [main/INFO] [minecraft/AdvancementTree]: Loaded 1516 advancements
+[14:42:09] [main/INFO] [Curios API/]: Loaded 10 curio slots
+[14:42:09] [main/INFO] [Curios API/]: Loaded 1 curio entities
+[14:42:10] [Server thread/INFO] [minecraft/DedicatedServer]: Starting minecraft server version 1.21.1
+[14:42:10] [Server thread/INFO] [minecraft/DedicatedServer]: Loading properties
+[14:42:10] [Server thread/INFO] [minecraft/DedicatedServer]: Default game type: SURVIVAL
+[14:42:10] [Server thread/INFO] [minecraft/MinecraftServer]: Generating keypair
+[14:42:10] [Server thread/INFO] [minecraft/DedicatedServer]: Starting Minecraft server on *:25565
+[14:42:10] [Server thread/INFO] [minecraft/ServerConnectionListener]: Using default channel type
+[14:42:11] [Server thread/WARN] [minecraft/DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:42:11] [Server thread/WARN] [minecraft/DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[14:42:11] [Server thread/WARN] [minecraft/DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:42:11] [Server thread/WARN] [minecraft/DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:42:11] [Server thread/INFO] [minecraft/DedicatedServer]: Preparing level "world"
+[14:42:12] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[14:42:12] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[14:42:13] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 51%
+[14:42:15] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 51%
+[14:42:15] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 51%
+[14:42:15] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 51%
+[14:42:15] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 51%
+[14:42:15] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 51%
+[14:42:16] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 51%
+[14:42:16] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 51%
+[14:42:17] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 51%
+[14:42:17] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 51%
+[14:42:18] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 51%
+[14:42:18] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 51%
+[14:42:19] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 51%
+[14:42:19] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 51%
+[14:42:20] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 7505 ms
+[14:42:20] [Server thread/INFO] [minecraft/DedicatedServer]: Done (9.028s)! For help, type "help"
+[14:42:20] [Server thread/INFO] [ne.ne.ne.ga.GameTestHooks/]: Enabled Gametest Namespaces: []
+[14:42:20] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[14:42:20] [Server thread/WARN] [ne.ne.ne.co.TagConventionLogWarning/]: 
+   Dev warning - Legacy Tags detected. Please migrate your 'forge' namespace tags to the 'c' namespace! See net.neoforged.neoforge.common.Tags.java for all tags.
+   NOTE: Many tags have been moved around or renamed. Some new ones were added so please review the new tags.
+    And make sure you follow tag conventions for new tags! The convention is `c` with nouns generally being plural and adjectives being singular.
+   You can disable this message in NeoForge's common config by setting `logLegacyTagWarnings` to "SILENCED" or see individual tags with "DEV_VERBOSE".
+
+[14:42:20] [Server thread/INFO] [hexcasting/]: We're on the server! Loaded 155 regular actions, 14 per-world actions, and 2 special handlers
+[14:42:20] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+
+D:\мои моды\HexCasting-main>if "-1" == "0" goto mainEnd 
+
+D:\мои моды\HexCasting-main>rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of 
+
+D:\мои моды\HexCasting-main>rem the _cmd.exe /c_ return code! 
+
+D:\мои моды\HexCasting-main>if 
