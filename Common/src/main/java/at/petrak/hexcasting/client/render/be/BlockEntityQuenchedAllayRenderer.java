@@ -35,9 +35,7 @@ public class BlockEntityQuenchedAllayRenderer implements BlockEntityRenderer<Blo
 
     @Override
     public void render(BlockEntityQuenchedAllay blockEntity, float partialTick, PoseStack poseStack,
-        MultiBufferSource bufferSource, int packedLight, int packedOverlay) {
-        doRender((BlockQuenchedAllay) blockEntity.getBlockState().getBlock(), this.ctx.getBlockRenderDispatcher(), poseStack, bufferSource, packedLight, packedOverlay);
-    }
+        return
 
     @Override
     public boolean shouldRenderOffScreen(BlockEntityQuenchedAllay blockEntity) {
